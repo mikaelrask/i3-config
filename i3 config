@@ -1,0 +1,34 @@
+Using the basic config of i3
+
+exec rofi -show run
+exec rofi -show drun (zoom)
+bindsym $mod+x exec rofi -show window
+exec nitrogen --restore &
+exec compton/picom & (run in terminal if not active in config file/comptom is replaced by picom)
+
+need to be place in your i3 config file home/user.config/i3
+
+alsamixer terminal <- sound from terminal if needed
+ranger ~/.config/ranger/rc.conf textfile set preview_images true <- to view images in ranger, ranger need to be run from the terminal
+pcmanfm vortex dark icons/paparius <- need to be downloaded to be install from the lxappearance program
+Lxappearance <- to chance icon themes, and boarder
+
+optional programs to install:
+clementine music
+cmus music from the terminal
+scrot terminal screensaver <-replaced by maim
+exec tint2 & <- for panel
+konsole
+guake -drop down terminal
+Synaptic remove kernels, install /remove programs if need a graphic option instead of terminal
+
+https://faq.i3wm.org/question/3747/enabling-multimedia-keys.1.html <-- simple config for your volum buttons if they should not work out of the box
+
+sudo apt update &&  sudo apt upgrade -y
+sudo apt install i3 ranger comptom/picom nitrogen rofi lxappearance pcmanfm alsamixer
+
+https://faq.i3wm.org/question/3747/enabling-multimedia-keys.1.html <-- volum buttons if the should not work
+
+commands:
+Find /boot/vmli* shows installed kernels from the terminal
+sudo apt-fast to update the system faster (Debian)
