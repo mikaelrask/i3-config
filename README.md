@@ -1,14 +1,20 @@
 # my config of 13 vm i daily drive
 
 # Using the basic config of i3
+
 # Debian/Ubuntu
+
 sudo apt update && sudo apt upgrade -y
+
 sudo apt install i3 ranger picom nitrogen rofi lxappearance pcmanfm
 
 #arch based systems
+
 sudo pacman -Syu
+
 sudo pacman -S i3 ranger picom nitrogen rofi lxappearance pcmanfm
 
+# need to be place in your i3 config file /home/user.config/i3
 
 exec rofi -show run
 exec rofi -show drun (Steam)
@@ -21,8 +27,6 @@ Bar:position top
 # picom
 
 # exec picom & (run in terminal if not active in config file /compton is replaced by picom)
-# need to be place in your i3 config file home/user .config/i3
-
 
 # confiq
 # ranger ~/.config/ranger/rc.conf textfile set preview_images true <- to view images in ranger, ranger need to be run from the terminal
