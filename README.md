@@ -17,9 +17,11 @@ sudo pacman -S i3 ranger picom nitrogen rofi lxappearance pcmanfm
 # need to be place in your i3 config file /home/user.config/i3
 
 exec rofi -show run
-exec rofi -show drun (Steam)
+exec rofi -show drun 
 bindsym $mod+x exec rofi -show window
+bindsym $mod+z exec rofi -show drun
 exec nitrogen --restore &
+exec picom &
 
 client.focused #04FA25  #04FA25 #04FA25 #04FA25
 Bar:position top
@@ -45,6 +47,7 @@ Bar:position top
 # alsamixer terminal <- sound from terminal if needed
 # Ncdu - diskspace show terminal 
 # nitrogen - to set background wallpaper * what i use in my config there is other option but what i find the easiest to use.
+# exec rofi -show drun runs grapical programs like steam.
 
 
 # commands:
