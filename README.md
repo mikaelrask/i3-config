@@ -47,7 +47,7 @@ Bar:position top
 # alsamixer terminal <- sound from terminal if needed
 # Ncdu - diskspace show terminal 
 # nitrogen - to set background wallpaper * what i use in my config there is other option but what i find the easiest to use.
-# exec rofi -show drun runs grapical programs like steam.
+# exec rofi -show drun runs graphical programs like steam.
 
 
 # commands:
