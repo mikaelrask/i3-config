@@ -1,6 +1,8 @@
 my config of 13 vm i daily drive
 Using the basic config of i3
-Debian/Ubuntu
+
+#Debian/Ubuntu
+
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install i3 ranger picom nitrogen rofi lxappearance pcmanfm
@@ -21,13 +23,13 @@ exec picom &
 
 client.focused #04FA25 #04FA25 #04FA25 #04FA25 Bar:position top
 
-picom
-exec picom & (run in terminal if not active in config file /compton is replaced by picom)
-confiq
-ranger ~/.config/ranger/rc.conf textfile set preview_images true <- to view images in ranger, ranger need to be run from the terminal
-pcmanfm vortex dark icons/paparius <- need to be downloaded to be install from the lxappearance program
-Lxappearance <- to chance icon themes, and boarder
-client.focused #04FA25 #04FA25 #04FA25 #04FA25 <-window boarder color
+#picom
+#exec picom & (run in terminal if not active in config file /compton is replaced by picom)
+#confiq
+#ranger ~/.config/ranger/rc.conf textfile set preview_images true <- to view images in ranger, ranger need to be run from the terminal
+#pcmanfm vortex dark icons/paparius <- need to be downloaded to be install from the lxappearance program
+#Lxappearance <- to chance icon themes, and boarder
+#client.focused #04FA25 #04FA25 #04FA25 #04FA25 <-window boarder color
 
 #optional programs to install:
 #strawberry music Player
