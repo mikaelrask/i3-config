@@ -12,7 +12,12 @@ sudo pacman -Syu
 sudo pacman -S i3 ranger picom nitrogen rofi lxappearance pcmanfm
 
 need to be place in your i3 config file /home/user.config/i3
-exec rofi -show run exec rofi -show drun bindsym $mod+x exec rofi -show window bindsym $mod+z exec rofi -show drun exec nitrogen --restore & exec picom &
+exec rofi -show run 
+exec rofi -show drun 
+bindsym $mod+x exec rofi -show window 
+bindsym $mod+z exec rofi -show drun 
+exec nitrogen --restore & 
+exec picom &
 
 client.focused #04FA25 #04FA25 #04FA25 #04FA25 Bar:position top
 
@@ -23,19 +28,20 @@ ranger ~/.config/ranger/rc.conf textfile set preview_images true <- to view imag
 pcmanfm vortex dark icons/paparius <- need to be downloaded to be install from the lxappearance program
 Lxappearance <- to chance icon themes, and boarder
 client.focused #04FA25 #04FA25 #04FA25 #04FA25 <-window boarder color
-optional programs to install:
-strawberry music Player
-cmus music from the terminal
-scrot terminal screensaver <-replaced by maim
-exec tint2 & <- for panel
-konsole - kde terminal
-guake - drop down terminal
-Synaptic remove kernels, install /remove programs if need a graphic option instead of terminal
-alsamixer terminal <- sound from terminal if needed
-Ncdu - diskspace show terminal
-nitrogen - to set background wallpaper * what i use in my config there is other option but what i find the easiest to use.
-exec rofi -show drun runs graphical programs like steam.
-commands:
-Find /boot/vmli* shows installed kernels from the terminal
-sudo apt-fast to update the system faster (Debian)
-pacman have fast installed by defualt to some degree.
+
+#optional programs to install:
+#strawberry music Player
+#cmus music from the terminal
+#scrot terminal screensaver <-replaced by maim
+#exec tint2 & <- for panel
+#konsole - kde terminal
+#guake - drop down terminal
+#Synaptic remove kernels, install /remove programs if need a graphic option instead of terminal
+#alsamixer terminal <- sound from terminal if needed
+#Ncdu - diskspace show terminal
+#nitrogen - to set background wallpaper * what i use in my config there is other option but what i find the easiest to use.
+#exec rofi -show drun runs graphical programs like steam.
+#commands:
+#Find /boot/vmli* shows installed kernels from the terminal
+#sudo apt-fast to update the system faster (Debian)
+#pacman have fast installed by defualt to some degree.
