@@ -1,6 +1,3 @@
-my config of 13 vm i daily drive
-Using the basic config of i3
-
 #Debian/Ubuntu
 
 sudo apt update && sudo apt upgrade -y
