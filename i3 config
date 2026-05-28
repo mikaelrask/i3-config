@@ -42,5 +42,3 @@ client.focused #04FA25 #04FA25 #04FA25 #04FA25 Bar:position top
 #exec rofi -show drun runs graphical programs like steam.
 #commands:
 #Find /boot/vmli* shows installed kernels from the terminal
-#sudo apt-fast to update the system faster (Debian)
-#pacman have fast installed by defualt to some degree.
